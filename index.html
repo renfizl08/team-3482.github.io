@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="keywords" content="3482, Arrowbotics, Westmont Robotics">
     <meta name="description" content="Homepage of Arrowbotics 3482, from Westmont High School">
-    <meta content="media/logo.png" property="og:image"/>
+    <meta content="media/icon.png" property="og:image"/>
     <meta content="#dd3125" data-react-helmet="true" name="theme-color" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -41,13 +41,13 @@
             <a class="navbar-brand" href="index.html">
               <img src="media/icon.png" class="logo">
             </a>
-            <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" 
-		    aria-label="Toggle navigation">
+            <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" 
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <svg class="navbar-icon">
                 <use xlink:href="#navbar-icon"></use>
               </svg>
-            <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" 
-		    aria-label="Toggle navigation">
+            <button class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none" 
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
@@ -56,34 +56,28 @@
               </div>
               <div class="offcanvas-body">
                 <ul id="navbar" class="navbar-nav font-abzero text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1  text-hover">
-                  <li class="nav-item me-5">
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
                     <a class="nav-link light text-uppercase active p-0" href="#home">Home</a>
                   </li>
-                  <li class="nav-item me-5">
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
                     <a class="nav-link light text-uppercase p-0" href="#about">About</a>
                   </li>
-                  <li class="nav-item me-5">
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
                     <a class="nav-link light text-uppercase p-0" href="#sponsors">Sponsors</a>
                   </li>
-                  <li class="nav-item me-5">
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
                     <a class="nav-link light text-uppercase p-0" href="#robots">Robots</a>
                   </li>
-                  <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#divisions">Divisions</a>
-                  </li>
-                  <li class="nav-item me-5">
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
                     <a class="nav-link light text-uppercase p-0" href="#board">Board</a>
                   </li>
-                  <li>
-                    <a class="nav-link light text-uppercase p-0" href="media.html">Media</a>
+                  <li class="nav-item me-5" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar">
+                    <a class="nav-link light text-uppercase p-0" href="#media">Media</a>
+                  </li>
+                  <li class = "nav-item me-5">
+                    <a class = "nav-link light text-uppercase p-0" href="dono.html">Donations</a>
                   </li>
                 </ul>
-                <div class="social-media navbar-socials">
-                  <a href="https://www.instagram.com/team_3482/" target="_blank"><i class='fab fa-instagram'></i></a>
-                  <a href="https://github.com/team-3482" target="_blank"><i class="fa-brands fa-github"></i></a>
-                  <a href="https://www.youtube.com/@arrowbotics5748" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                  <a href="https://www.facebook.com/Team3482/" target="_blank"><i class="fab fa-facebook"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -95,7 +89,8 @@
         </div>
         <div class="container-lg">
           <div class="banner-content-main position-absolute" data-aos="fade-up" >
-            <h1 class="banner-title light text-uppercase fw-bold">We are<br>Arrowbotics</h1>
+            <h1 class="banner-title light text-uppercase fw-bold">We are<br></h1>
+            <h1 class="banner-title light text-uppercase fw-bold"> Arrowbotics</h1>
           </div>
         </div>
       </section>
@@ -104,8 +99,8 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="section-header">
-                <h2 class="text-uppercase mb-3 left-pattern">About Us</h2>
-                <h3 class="text-uppercase">FRC Team 3482</h3>
+                <h6 class="text-uppercase mb-3 left-pattern offset-sm-1">About Us</h6>
+                <h7 class="text-uppercase offset-sm-1">FRC Team 3482</h7>
               </div>
             </div>
             <div class="col-lg-6">
@@ -155,11 +150,11 @@
         </div>
       </section>
       <br>
-       <section id="sponsors" class="padding-large overflow-hidden">
+       <section id="sponsors" class="padding-small overflow-hidden ">
         <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="section-header offset-lg-4">
+          <div class="section-header">
             <h2 class="text-uppercase mb-3 left-pattern">Sponsors</h2>
-            <h3 class="text-uppercase" onclick="window.location.href='sponsors.html'">Our 2024 Sponsors</h3>
+            <h3 class="text-uppercase">Our 2024 Sponsors</h3>
           </div><br><br>
           <div class="row justify-content-between">
             <div class="col-lg-3 pb-3">
@@ -194,9 +189,9 @@
         </div>
       </section>
       <br>
-      <section id="robots" class="padding-large">
+      <section id="robots" class="padding-small">
         <div class="container-fluid">
-          <div class="section-header offset-lg-4">
+          <div class="section-header">
             <h2 class="text-uppercase mb-3 left-pattern">Robots</h2>
             <h3 class="text-uppercase">a few of our bots</h3>
           </div>
@@ -231,64 +226,18 @@
           <button class="robot-button" onclick="location.href = 'robots.html'">See all robots</button>
         </div>
       </section>
-      <section id="divisions" class="jarallax d-flex align-items-center" style="background-image: url(media/bg-image1.jpg); 
-        width: 100%; height: 535px; background-repeat: no-repeat;">
-        <div class="container mt-5" data-aos="fade-up" data-aos-duration="2000">
-          <div class="section-header offset-lg-4">
-            <h2 class="text-uppercase mb-3 left-pattern" style="color:white;">Divisions</h2>
-            <h3 class="text-uppercase" style="color:white;">How we work</h3><br> 
-          </div><br><br><br>
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Mechanical</h3>
-                <p class="light">Physically cutting, building, and assembling the robot</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Software</h3>
-                <p class="light">Writing the code that the robot runs on, including driving and autonomous</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">CAD</h3>
-                <p class="light">Creating the design of the robot in 3D CAD software</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Electrical</h3>
-                <p class="light">Connecting all the components of the robot together</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Public Relations</h3>
-                <p class="light">Planning our events, sponsors, and managing our social media accounts</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Finance</h3>
-                <p class="light">Managing our funds from sponsors</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section><br><br><br>
-      <section id="board" class="padding-large pt-0">
+      
+      <section id="board" class="padding-small bg-gray-200">
         <div class="container" data-aos="fade-up" data-aos-duration="2000">
           <div class="row">
             <div class="swiper-header d-flex flex-wrap justify-content-between mb-3">
               <div class="section-header mb-5 text-uppercase">
-                <h2 class="mb-3 left-pattern">board</h2>
-                <h3>Meet the board members</h3>
+                <h6 class="mb-3 left-pattern">board</h6>
+                <h7>Meet the board members</h7>
               </div>
               <div class="swiper-arrow-wrap d-flex">
                 <div class="swiper-arrow border rounded-circle d-flex align-items-center justify-content-center me-4">
-                  <svg class="icon-arrow-left" width="39" height="20">
+                  <svg class="icon-arrow-left" width="40" height="20">
                     <use xlink:href="#icon-arrow-left" />
                   </svg>
                 </div>
@@ -449,9 +398,42 @@
           </div>
         </div>
       </section>
-      <footer id="footer" class="overflow-hidden padding-large">
+      <section id="media" class="padding-small">
+        <div class="container-fluid">
+          <div class="section-header">
+            <h2 class="text-uppercase mb-3 left-pattern">Media</h2>
+          </div>
+          <div class="projects-isotope"><br>
+            <div class="row isotope-container">
+              <div class="col-lg-3 col-md-6 item building">
+                <div class="projects-content mx-auto">
+                  <img src="media/robots/morpheus.png" class="reveal-curve-top img-fluid" alt="Morpheus">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 item renovate">
+                <div class="projects-content mx-auto">
+                  <img src="media/robots/aegis.png" class="img-fluid" alt="Aegis">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 item road">
+                <div class="projects-content mx-auto">
+                  <img src="media/robots/ronin.png" class="img-fluid" alt="Rōnin">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 item road">
+                <div class="projects-content mx-auto">
+                  <img src="media/robots/ronin.png" class="img-fluid" alt="Rōnin">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="robot-button mt-4" onclick="location.href = 'media.html'">See all media</button>
+        </div>
+      </section>
+      <footer id="footer" class="overflow-hidden padding-small">
         <div class="container">
           <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-3 col-md-0 col-sm-0"></div>
             <div class="col-lg-3 col-md-6 col-sm-6 pb-3">
               <div class="footer-menu">
                 <img src="media/icon-big.png" alt="footer logo" class="pb-4">
@@ -467,7 +449,7 @@
                   <li class="pb-2">
                     <a href="mailto:">team3482@gmail.com</a>
                   </li>
-                  <div class="social-media footer-socials" style="color:black;">
+                  <div class="social-media footer-socials lg-4" style="color:black;">
                     <a href="https://www.instagram.com/team_3482/" target="_blank"><i class='fab fa-instagram'></i></a>
                     <a href="https://github.com/team-3482" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.youtube.com/@arrowbotics5748" target="_blank"><i class="fa-brands fa-youtube"></i></a>
@@ -476,6 +458,7 @@
                 </ul>
               </div>
             </div>
+            <div class="col-lg-3 col-md-0 col-sm-0"></div>
           </div>
         </div>
       </footer>
